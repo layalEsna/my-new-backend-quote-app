@@ -4,8 +4,9 @@
   "description": "Backend for quote application",
   "main": "index.js",
   "scripts": {
-    "start": "json-server --watch db.json --port $PORT"
-  },
+    "start": "HOST=0.0.0.0 json-server --watch db.json --port $PORT"
+  }
+  ,
   "dependencies": {
     "json-server": "^0.17.1"
   }
